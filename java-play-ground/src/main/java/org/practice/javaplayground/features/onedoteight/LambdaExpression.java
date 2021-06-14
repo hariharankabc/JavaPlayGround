@@ -10,5 +10,10 @@ public class LambdaExpression {
 		    numbers.add(8);
 		    numbers.add(1);
 		    numbers.forEach( (n) -> { System.out.println(n); } ); 
+		
+		Drawable d2=()->{  
+            System.out.println("Drawing "+width);  
+        };  
+        d2.draw(); 
 		  }
 }
